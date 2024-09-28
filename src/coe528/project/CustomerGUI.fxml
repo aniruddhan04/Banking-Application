@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.paint.Color?>
+
+<AnchorPane id="AnchorPane" prefHeight="600.0" prefWidth="700.0" style="-fx-background-color: #2C3E50;" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="coe528.project.CustomerGUIController">
+  <children>
+    <Label layoutX="250.0" layoutY="38.0" text="Welcome Customer!" textFill="WHITE">
+      <font>
+        <Font size="24.0" />
+      </font>
+    </Label>
+    <Label layoutX="54.0" layoutY="113.0" text="Deposit Amount (CAD):" textFill="WHITE" />
+    <Label layoutX="54.0" layoutY="185.0" text="Withdraw Amount (CAD):" textFill="WHITE" />
+    <Label layoutX="54.0" layoutY="264.0" text="Online Purchase Amount (CAD):" textFill="WHITE" />
+    <TextField fx:id="depositAmount" layoutX="240.0" layoutY="110.0" prefWidth="200.0" />
+    <TextField fx:id="withdrawAmount" layoutX="240.0" layoutY="185.0" prefWidth="200.0" />
+    <Button fx:id="withdraw" layoutX="491.0" layoutY="185.0" mnemonicParsing="false" onAction="#handleWithdrawButton" prefHeight="20.0" prefWidth="160.0" text="Withdraw" style="-fx-background-color: #3498DB; -fx-text-fill: WHITE;-fx-font-size: 15px;" />
+    <Button fx:id="deposit" layoutX="491.0" layoutY="110.0" mnemonicParsing="false" onAction="#handleDepositButton" prefHeight="20.0" prefWidth="160.0" text="Deposit" style="-fx-background-color: #3498DB; -fx-text-fill: WHITE;-fx-font-size: 15px;" />
+    <Button fx:id="checkBalance" layoutX="247.0" layoutY="350.0" mnemonicParsing="false" onAction="#handleCheckBalanceButton" prefHeight="66.0" prefWidth="206.0" text="Check Balance" style="-fx-background-color: #3498DB; -fx-text-fill: WHITE;-fx-font-size: 20px;" />
+    <TextField fx:id="amountOnlinePurchase" layoutX="250.0" layoutY="262.0" prefWidth="200.0" />
+    <Button fx:id="cLogout" layoutX="214.0" layoutY="469.0" minHeight="29.9998779296875" mnemonicParsing="false" onAction="#handleCLogoutButton" prefHeight="87.0" prefWidth="267.0" text="Logout" style="-fx-background-color: #3498DB; -fx-text-fill: WHITE;-fx-font-size: 30px;" />
+    <Button fx:id="onlinePurchase" layoutX="491.0" layoutY="262.0" mnemonicParsing="false" onAction="#handleOnlinePurchaseButton" prefHeight="20.0" prefWidth="160.0" text="Make Purchase" style="-fx-background-color: #3498DB; -fx-text-fill: WHITE;-fx-font-size: 15px;" />
+  </children>
+</AnchorPane>
