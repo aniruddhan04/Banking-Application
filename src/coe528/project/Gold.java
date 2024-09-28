@@ -1,4 +1,4 @@
-package coe528.project; // This declares the package for organizing related classes.
+package coe528.project; //  declares the package for organizing related classes.
 
 public class Gold extends Level { // The Gold class extends the Level class, indicating it is a specific type of account level.
     
