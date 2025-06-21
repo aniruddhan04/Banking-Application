@@ -92,9 +92,10 @@ See **finalReport.pdf** for:
 
 ## License
 
-This project is released under the MIT License.
+Released under the MIT License.
 
 ---
 
 ## Author
+
 Aniruddha Nandy
