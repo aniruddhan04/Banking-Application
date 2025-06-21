@@ -16,10 +16,6 @@ Application for creating and managing bank accounts, performing transactions, an
   - Transfer money between accounts  
   - Input validation and balance checks
 
-- **Build & Run**  
-  - Ant-based build script (`build.xml`)  
-  - Optional NetBeans project metadata for IDE integration  
-
 - **Documentation & Diagrams**  
   - Use-case and class diagrams included  
   - Detailed design and testing report
@@ -28,9 +24,16 @@ Application for creating and managing bank accounts, performing transactions, an
 
 ## Prerequisites
 
-- Java SE 8 (or newer)  
-- Apache Ant 1.x  
-- (Optional) NetBeans IDE  
+- **Java SE Development Kit (JDK)** — Java SE 8 or newer installed  
+- **NetBeans IDE** — required to run and develop the project  
+- **JavaFX SDK** — required for running the GUI 
+
+> **Note:** You need to download and install the above tools separately.  
+>  
+> For configuring JavaFX with NetBeans (Non-modular from IDE setup), follow the official instructions here:  
+> [JavaFX and NetBeans — Non-modular from IDE](https://openjfx.io/openjfx-docs/index.html#netbeans-non-modular)  
+>  
+> This includes setting up JavaFX SDK libraries and VM options properly to run the application.
 
 ---
 
@@ -42,13 +45,7 @@ Application for creating and managing bank accounts, performing transactions, an
    cd Banking-Application
    ```
 
-2. **Build and run with Ant**  
-   ```bash
-   ant compile
-   ant run
-   ```
-
-3. **Or open in NetBeans**  
+2. **Open in NetBeans**  
    - File → Open Project → select the `Banking-Application` folder  
    - Run the `Main` class in the `coe528.project` package
 
@@ -93,12 +90,11 @@ See **finalReport.pdf** for:
 
 ---
 
-## Author
-
-Aniruddha Nandy
-
----
-
 ## License
 
 This project is released under the MIT License.
+
+---
+
+## Author
+Aniruddha Nandy
