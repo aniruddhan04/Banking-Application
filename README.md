@@ -49,6 +49,8 @@ Application for creating and managing bank accounts, performing transactions, an
    - File → Open Project → select the `Banking-Application` folder  
    - Run the `Main` class in the `coe528.project` package
 
+> The project must be run through the IDE to ensure proper JavaFX SDK configuration.
+
 ---
 
 ## Project Structure
