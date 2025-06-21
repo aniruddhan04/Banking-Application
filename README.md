@@ -1,7 +1,6 @@
 # Banking Application
 
-**A simple Java-based banking system**  
-Application for creating and managing bank accounts, performing transactions, and viewing account information.
+A simple Java-based banking system for creating and managing bank accounts, performing transactions, and viewing account information.
 
 ---
 
